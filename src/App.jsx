@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Buttons } from "./components/Button";
-import { Snake } from "./components/Snake";
-import { Menu } from "./components/Menu";
-import { Food } from "./components/Food";
+import { Buttons } from "./component/Button";
+import { Snake } from "./component/Snake";
+import { Menu } from "./component/Menu";
+import { Food } from "./component/Food";
 
 const getRandomFood = () => {
   let min = 1;

@@ -124,3 +124,29 @@ body {
   border-radius: 20px;
   z-index: 2;
 }
+.game-area {
+  position: relative;
+  margin: 50px auto;
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.snake-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: green;
+}
+
+.food-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: red;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 150px;
+}
